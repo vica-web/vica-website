@@ -1,0 +1,20 @@
+.container {
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+}
+
+.active {
+  /* background-color: var(--text); */
+  color: var(--primary-color);
+}
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+
+  left: 0;
+  height: 4px;
+  width: 58px;
+  background-color: var(--primary-color);
+}

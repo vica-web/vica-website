@@ -1,0 +1,14 @@
+{
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.useEditorConfig": true,
+  "prettier.requireConfig": true,
+  "reactSnippets.settings.prettierEnabled": true,
+  "prettier.insertPragma": true,
+  "prettier.requirePragma": true,
+  "prettier.bracketSameLine": true,
+  "prettier.enableDebugLogs": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.useTabs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.proseWrap": "always"
+}
