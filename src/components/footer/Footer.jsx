@@ -1,10 +1,7 @@
 import Image from "next/image";
-import GetInTouch from "../getInTouch/getInTouch";
+import GetInTouch from "../getInTouch/GetInTouch";
 import Link from "next/link";
-import { FaTelegramPlane } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
-import { RiInstagramLine } from "react-icons/ri";
+
 
 const links = [
   {
@@ -51,9 +48,6 @@ const Footer = () => {
               <Image src='./x.svg' alt="X Link" width={30} height={30}/>
               <Image src='./instagram.svg' alt="instagram Link" width={30} height={30}/>
               <Image src='./telegram.svg' alt="telegram Link" width={30} height={30}/>
-              {/* <FaFacebook color='transparent'/>
-              <RiTwitterXLine color='transparent'/>
-              <RiInstagramLine color='transparent'/> */}
             </div>
           </div>
         <p className="text-[13px] text-white">COPYRIGHT © 2023 Vica solutions, ALL RIGHTS RESERVED.</p>
